@@ -1,0 +1,19 @@
+div{
+    display: block;
+    align-items: center;
+}
+td{
+    padding-left: 25px;
+}
+tr{
+    
+    padding: 20px;
+    padding-bottom: 100%;
+
+}
+body{
+    background-color: bisque;
+}
+table{
+    
+}

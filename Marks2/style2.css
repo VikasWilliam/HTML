@@ -1,0 +1,13 @@
+div{
+    border: 1px solid red;
+  padding: 5px;
+  align-self: center;
+  
+}
+
+td{
+  text-transform: uppercase;
+}
+body{
+    background-color: bisque;
+}

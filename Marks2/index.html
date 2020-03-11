@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="style2.css" rel="stylesheet">
+        <script src="controller.js"></script>
+    </head>
+    <body>
+       
+        <div class="jumbotron">
+            <table align="Center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" class="form-control" id="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" class="form-control" id="email"></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" class="from-control" id="dob"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>Male<input type="radio" name="one">Female<input type="radio" name="one" id="Gender"></td>
+                
+            </tr>
+            <tr>
+                <td><input type="Submit" class="btn btn-primary" id="button" onclick="fun()"></td>
+            </tr>
+        </table>
+       
+    </div>
+   
+        <table align="center">
+            <tr>
+               
+                <td><p id="named"></p></td>
+            </tr>
+            <tr>
+                
+                <td><p id="emaild"></p></td>
+            </tr>
+            <tr>
+                <td><p id="dobd"></p></td>
+            </tr>
+        </table>
+    </body>
+</html>
