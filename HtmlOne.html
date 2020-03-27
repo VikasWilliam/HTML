@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <body>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </br>
+</br>
+    <table align="center">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" class="form-control" id="usr"></td>
+            </tr>
+        <tr></tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" class="form-control" id="usr2"></td>
+            </tr>
+            <tr>
+                <td><button onclick="fun()">Click me</button></td>
+            </tr>
+        </table>
+        <p id="dpusr"></p>
+        <script>
+           function fun()
+           {
+              var a= document.getElementById("usr").value;
+              document.getElementById("dpusr").innerHTML=a;
+           }
+
+        </script>
+    </body>
+</html>
